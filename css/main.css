@@ -1361,11 +1361,11 @@ svg:hover {
     background-position: center center;
     background-size: contain;
     margin-top: -10px;
-    margin-left: -540px;
+    margin-left: -530px;
   }
   .sidebar_atim {
     padding-top: 200px;
-    padding-left: 545px;
+    padding-left: 535px;
   }
   .sidebar_p {
     font-style: normal;
@@ -1418,7 +1418,7 @@ svg:hover {
     color: #FFFFFF;
     padding: 15px 30px;
     background: #D87D4A;
-    margin-left: 110px;
+    margin-left: 105px;
   }
   .sidebar_link:hover {
     background: #FBAF85;
@@ -1435,7 +1435,7 @@ svg:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 148px;
-    margin-left: -70px;
+    margin-left: -65px;
   }
   .widget_atim {
     width: 327px;
@@ -1623,7 +1623,7 @@ svg:hover {
     background-image: url(../img/telfon.img/ZX9SPEAKER.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    margin-left: -155px;
+    margin-left: -145px;
     margin-top: -40px;
   }
   .pending {
@@ -1690,7 +1690,7 @@ svg:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    margin-left: 24px;
+    margin-left: 34px;
   }
   .warning_atim {
     padding-top: 101px;
@@ -1729,6 +1729,7 @@ svg:hover {
     height: 200px;
     background: #F1F1F1;
     border-radius: 8px;
+    margin-left: 10px;
   }
   .error_atim2 {
     padding-left: 24px;
@@ -1792,7 +1793,7 @@ svg:hover {
     background-position: center center;
     background-size: contain;
     bottom: 390px;
-    left: -190px;
+    left: -170px;
   }
   .overlay_atim-span {
     color: #D87D4A;
