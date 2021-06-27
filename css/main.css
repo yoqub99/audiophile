@@ -99,6 +99,11 @@ hr {
   opacity: 0.2;
 }
 
+.section_menu {
+  width: 100%;
+  background: #141414;
+}
+
 .sidebar_atim {
   width: 1440px;
   height: 700px;
@@ -374,9 +379,11 @@ hr {
 }
 
 .section {
-  background-image: url(../../img/img/Mask.jpg);
+  background-image: url(../../img/img/zx9-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 10px;
+  margin-left: 40px;
 }
 
 .pending {
@@ -469,6 +476,7 @@ hr {
 .error_atim img {
   width: 540px;
   height: 320px;
+  border-radius: 5px;
 }
 
 .error_atim2 {
@@ -683,12 +691,11 @@ svg:hover {
     overflow-x: hidden;
   }
   .header {
-    width: 689px;
+    width: 100%;
     background: #0E0E0E;
     position: fixed;
     z-index: 1;
     top: 0;
-    margin-left: 40px;
     overflow-x: hidden;
   }
   .aside {
@@ -722,7 +729,7 @@ svg:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    left: 60px;
+    left: 10px;
     top: 5px;
   }
   .nav_menu {
@@ -744,6 +751,9 @@ svg:hover {
     width: 23px;
     height: 20px;
     margin-right: 40px;
+  }
+  .aside_atim img {
+    margin-left: 40px;
   }
   hr {
     background: #FFFFFF;
@@ -1100,7 +1110,8 @@ svg:hover {
   }
   .error_atim img {
     width: 339px;
-    height: 320px;
+    height: 315px;
+    border-radius: 5px;
   }
   .error_atim2 {
     width: 339px;
@@ -1163,12 +1174,11 @@ svg:hover {
     color: #D87D4A;
   }
   .overlay_atim p::before {
-    display: inline-block;
     position: absolute;
-    content: "asasasasa";
+    content: "";
     width: 689px;
     height: 300px;
-    background-image: url(../img/img/Bitmap.png);
+    background-image: url(../img/planshet/man-tablet.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1179,7 +1189,7 @@ svg:hover {
     display: none;
   }
   .footer {
-    height: 700px;
+    height: 400px;
     background: #101010;
     margin-top: 96px;
   }
@@ -1202,7 +1212,7 @@ svg:hover {
     width: 143px;
     height: 25px;
     margin-top: 60px;
-    margin-right: 550px;
+    margin-right: 530px;
   }
   .tooltip_atim1 {
     margin-right: 310px;
@@ -1355,8 +1365,7 @@ svg:hover {
     margin-left: 40px;
   }
   .sidebar_atim {
-    height: 729px;
-    background-image: url(../img/telfon.img/Bitmapqqq.png);
+    background-image: url(../img/img/header-heaedphones.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1620,11 +1629,12 @@ svg:hover {
     overflow-x: hidden;
   }
   .section {
-    background-image: url(../img/telfon.img/ZX9SPEAKER.jpg);
+    background-image: url(../img/telfon.img/Mask1212.png);
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: -145px;
     margin-top: -40px;
+    border-radius: 100px;
   }
   .pending {
     -webkit-box-orient: vertical;
@@ -1677,10 +1687,10 @@ svg:hover {
     opacity: 0.75;
     margin-bottom: 40px;
     margin-right: 50px;
-    margin-left: 23px;
+    margin-left: 13px;
   }
   .link {
-    margin-right: 20px;
+    margin-right: 30px;
   }
   .warning {
     width: 327px;
@@ -1805,7 +1815,6 @@ svg:hover {
     height: 654px;
     background: #101010;
     margin-top: 200px;
-    margin-left: 1px;
     overflow-x: hidden;
   }
   .tooltip {

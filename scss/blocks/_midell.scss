@@ -40,6 +40,10 @@ hr{
     mix-blend-mode: normal;
     opacity: 0.2;
 }
+.section_menu{
+    width: 100%;
+    background: #141414;
+}
 .sidebar_atim{
     width: 1440px;
     height: 700px;
@@ -297,10 +301,15 @@ hr{
 
 
 
+
+
+
 .section{
-    background-image: url(../../img/img/Mask.jpg);
+    background-image: url(../../img/img/zx9-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
+    border-radius: 10px;
+    margin-left: 40px;
 }
 .pending{
     display: flex;
@@ -371,6 +380,7 @@ hr{
 .error_atim img{
     width: 540px;
     height: 320px;
+   border-radius: 5px;
 }
 .error_atim2{
     width: 540px;
